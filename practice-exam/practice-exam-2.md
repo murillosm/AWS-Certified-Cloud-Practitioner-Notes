@@ -1,523 +1,523 @@
-# Practice Exam 2
+# Exame de Prática 2
 
-Click on the **Answer** button for the correct answer and its explanation.
+Clique no botão **Resposta** para ver a resposta correta e sua explicação.
 
-If this practice exam has been helpful to you please share it with others and react to this below.
+Se este exame de prática foi útil para você, por favor compartilhe com outros e reaja abaixo.
 
 ---
 
-1. A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?
+1. Uma empresa global com um grande número de contas AWS está buscando uma maneira de gerenciar centralmente políticas de faturamento e segurança em todas as contas. Qual serviço AWS ajudará a atender a esses objetivos?
     - A. AWS Organizations.
     - B. AWS Trusted Advisor.
     - C. IAM User Groups.
     - D. AWS Config.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-2. Which service provides object-level storage in AWS?
+2. Qual serviço fornece armazenamento em nível de objeto na AWS?
     - A. Amazon EBS.
     - B. Amazon Instance Store.
     - C. Amazon EFS.
     - D. Amazon S3.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D
     </details>
 
-3. A company is concerned that they are spending money on underutilized compute resources in AWS. Which AWS feature will help ensure that their applications are automatically adding/removing EC2 compute capacity to closely match the required demand?
+3. Uma empresa está preocupada em gastar dinheiro com recursos de computação subutilizados na AWS. Qual recurso da AWS ajudará a garantir que suas aplicações adicionem/removam automaticamente capacidade de computação EC2 para corresponder de perto à demanda necessária?
     - A. AWS Elastic Load Balancer.
     - B. AWS Budgets.
     - C. AWS Auto Scaling.
     - D. AWS Cost Explorer.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-4. Which S3 storage class is best for data with unpredictable access patterns?
+4. Qual classe de armazenamento S3 é melhor para dados com padrões de acesso imprevisíveis?
     - A. Amazon S3 Intelligent-Tiering.
     - B. Amazon S3 Glacier Flexible Retrieval.
     - C. Amazon S3 Standard.
     - D. Amazon S3 Standard-Infrequent Access.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-5. What is the AWS database service that allows you to upload data structured in key-value format?
+5. Qual é o serviço de banco de dados da AWS que permite carregar dados estruturados em formato chave-valor?
     - A. Amazon DynamoDB.
     - B. Amazon Aurora.
     - C. Amazon Redshift.
     - D. Amazon RDS.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-6. Which of the following is NOT correct regarding Amazon EC2 On-demand instances?
-    - A. You have to pay a start-up fee when launching a new instance for the first time.
-    - B. The on-demand instances follow the AWS pay-as-you-go pricing model.
-    - C. With on-demand instances, no longer-term commitments or upfront payments are needed.
-    - D. When using on-demand Linux instances, you are charged per second based on an hourly rate.
+6. Qual das seguintes afirmações NÃO está correta em relação às instâncias On-demand do Amazon EC2?
+    - A. Você tem que pagar uma taxa de inicialização ao lançar uma nova instância pela primeira vez.
+    - B. As instâncias On-demand seguem o modelo de preços pay-as-you-go da AWS.
+    - C. Com instâncias On-demand, não são necessários compromissos de longo prazo ou pagamentos antecipados.
+    - D. Ao usar instâncias Linux On-demand, você é cobrado por segundo com base em uma taxa horária.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-7. A company has moved to AWS recently. Which of the following AWS Services will help ensure that they have the proper security settings? (Choose TWO)
+7. Uma empresa mudou-se recentemente para a AWS. Quais dos seguintes serviços da AWS ajudarão a garantir que eles tenham as configurações de segurança adequadas? (Escolha DUAS)
     - A. AWS Trusted Advisor.
     - B. Amazon Inspector.
     - C. Amazon SNS.
     - D. Amazon CloudWatch.
     - E. Concierge Support Team.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, B
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A, B
     </details>
 
-8. What is the AWS feature that provides an additional level of security above the default authentication mechanism of usernames and passwords?
-    - A. Encrypted keys.
-    - B. Email verification.
+8. Qual é o recurso da AWS que fornece um nível adicional de segurança além do mecanismo de autenticação padrão de nomes de usuário e senhas?
+    - A. Chaves criptografadas.
+    - B. Verificação por e-mail.
     - C. AWS KMS.
     - D. AWS MFA.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D
     </details>
 
-9. A company is introducing a new product to their customers, and is expecting a surge in traffic to their web application. As part of their Enterprise Support plan, which of the following provides the company with architectural and scaling guidance?
+9. Uma empresa está lançando um novo produto para seus clientes e espera um aumento no tráfego para sua aplicação web. Como parte de seu plano de Suporte Empresarial, qual dos seguintes fornece à empresa orientação arquitetônica e de escalabilidade?
     - A. AWS Knowledge Center.
     - B. AWS Health Dashboard.
     - C. Infrastructure Event Management.
     - D. AWS Support Concierge Service.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-10. You work as an on-premises MySQL DBA. The work of database configuration, backups, patching, and DR can be time-consuming and repetitive. Your company has decided to migrate to the AWS Cloud. Which of the following can help save time on database maintenance so you can focus on data architecture and performance?
+10. Você trabalha como DBA MySQL on-premises. O trabalho de configuração de banco de dados, backups, patching e DR pode ser demorado e repetitivo. Sua empresa decidiu migrar para a AWS Cloud. Qual dos seguintes pode ajudar a economizar tempo na manutenção do banco de dados para que você possa se concentrar na arquitetura e desempenho dos dados?
     - A. Amazon RDS.
     - B. Amazon Redshift.
     - C. Amazon DynamoDB.
     - D. Amazon CloudWatch.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-11. Which of the below is a best-practice when designing solutions on AWS?
-    - A. Invest heavily in architecting your environment, as it is not easy to change your design later.
-    - B. Use AWS reservations to reduce costs when testing your production environment.
-    - C. Automate wherever possible to make architectural (© ) experimentation easier.
-    - D. Provision a large compute capacity to handle any spikes in load
+11. Qual das opções abaixo é uma prática recomendada ao projetar soluções na AWS?
+    - A. Investir fortemente na arquitetura do seu ambiente, pois não é fácil mudar seu design posteriormente.
+    - B. Usar reservas da AWS para reduzir custos ao testar seu ambiente de produção.
+    - C. Automatizar sempre que possível para facilitar a experimentação arquitetônica.
+    - D. Provisionar uma grande capacidade de computação para lidar com qualquer aumento de carga.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-12. According to the AWS Acceptable Use Policy, which of the following statements is true regarding penetration testing of EC2 instances?
-    - A. Penetration testing is not allowed in AWS.
-    - B. Penetration testing is performed automatically by AWS to determine vulnerabilities in your AWS infrastructure.
-    - C. Penetration testing can be performed by the customer on their own instances without prior authorization from AWS.
-    - D. The AWS customers are only allowed to perform penetration testing on services managed by AWS.
+12. De acordo com a Política de Uso Aceitável da AWS, qual das seguintes afirmações é verdadeira em relação ao teste de penetração de instâncias EC2?
+    - A. Testes de penetração não são permitidos na AWS.
+    - B. Testes de penetração são realizados automaticamente pela AWS para determinar vulnerabilidades em sua infraestrutura AWS.
+    - C. Testes de penetração podem ser realizados pelo cliente em suas próprias instâncias sem autorização prévia da AWS.
+    - D. Os clientes da AWS só podem realizar testes de penetração em serviços gerenciados pela AWS.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-13. Which service is used to ensure that messages between software components are not lost if one or more components fail?
+13. Qual serviço é usado para garantir que mensagens entre componentes de software não sejam perdidas se um ou mais componentes falharem?
     - A. Amazon SQS.
     - B. Amazon SES.
     - C. AWS Direct Connect.
     - D. Amazon Connect.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-14. The principle “design for failure and nothing will fail” is very important when designing your AWS Cloud architecture. Which of the following would help adhere to this principle? (Choose TWO)
-    - A. Multi-factor authentication.
+14. O princípio "projetar para falha e nada falhará" é muito importante ao projetar sua arquitetura na AWS Cloud. Qual das seguintes opções ajudaria a aderir a esse princípio? (Escolha DUAS)
+    - A. Autenticação multifator.
     - B. Availability Zones.
     - C. Elastic Load Balancing.
-    - D. Penetration testing.
-    - E. Vertical Scaling.
+    - D. Testes de penetração.
+    - E. Escalonamento vertical.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B, C
     </details>
 
-15. What is the AWS service that provides a virtual network dedicated to your AWS account?
+15. Qual é o serviço da AWS que fornece uma rede virtual dedicada à sua conta AWS?
     - A. AWS VPN.
     - B. AWS Subnets.
     - C. AWS Dedicated Hosts.
     - D. Amazon VPC.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D
     </details>
 
-16. According to the AWS Shared responsibility model, which of the following are the responsibility of the customer? (Choose TWO)
-    - A. Managing environmental events of AWS data centers.
-    - B. Protecting the confidentiality of data in transit in Amazon S3.
-    - C. Controlling physical access to AWS Regions.
-    - D. Ensuring that the underlying EC2 host is configured properly.
-    - E. Patching applications installed on Amazon EC2.
+16. De acordo com o modelo de responsabilidade compartilhada da AWS, quais das seguintes são responsabilidades do cliente? (Escolha DUAS)
+    - A. Gerenciar eventos ambientais dos data centers da AWS.
+    - B. Proteger a confidencialidade dos dados em trânsito no Amazon S3.
+    - C. Controlar o acesso físico às regiões da AWS.
+    - D. Garantir que o host subjacente do EC2 esteja configurado corretamente.
+    - E. Aplicar patches nas aplicações instaladas no Amazon EC2.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B, E
     </details>
 
-17. Which of the following AWS services can be used as a compute resource? (Choose TWO)
+17. Quais dos seguintes serviços da AWS podem ser usados como recurso de computação? (Escolha DUAS)
     - A. Amazon VPC.
     - B. Amazon CloudWatch.
     - C. Amazon S3.
     - D. Amazon EC2.
     - E. AWS Lambda.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D, E
     </details>
 
-18. Your company is designing a new application that will store and retrieve photos and videos. Which of the following services should you recommend as the underlying storage mechanism?
+18. Sua empresa está projetando uma nova aplicação que armazenará e recuperará fotos e vídeos. Qual dos seguintes serviços você recomendaria como mecanismo de armazenamento subjacente?
     - A. Amazon EBS.
     - B. Amazon SQS.
     - C. Amazon S3.
     - D. Amazon Instance store.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-19. Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?
-    - A. Instance Password.
-    - B. Key pairs.
+19. Qual das seguintes opções é equivalente a um nome de usuário e senha e é usada para autenticar seu acesso programático aos serviços e APIs da AWS?
+    - A. Senha da instância.
+    - B. Pares de chaves.
     - C. Access Keys.
     - D. MFA.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-20. What does Amazon ElastiCache provide?
-    - A. In-memory caching for read-heavy applications.
-    - B. An Ehcache compatible in-memory data store.
-    - C. An online software store that allows Customers to launch pre-configured software with just few clicks.
-    - D. A domain name system in the cloud.
+20. O que o Amazon ElastiCache fornece?
+    - A. Cache em memória para aplicações com leitura intensiva.
+    - B. Um data store em memória compatível com Ehcache.
+    - C. Uma loja de software online que permite aos clientes lançar software pré-configurado com apenas alguns cliques.
+    - D. Um sistema de nomes de domínio na nuvem.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-21. What is the AWS service that enables you to manage all of your AWS accounts from a single master account?
+21. Qual é o serviço da AWS que permite gerenciar todas as suas contas AWS a partir de uma única conta mestre?
     - A. AWS WAF.
     - B. AWS Trusted Advisor.
     - C. AWS Organizations.
     - D. Amazon Config.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-22. Which of the following EC2 instance purchasing options supports the Bring Your Own License (BYOL) model for almost every BYOL scenario?
+22. Quais das seguintes opções de compra de instâncias EC2 suportam o modelo Bring Your Own License (BYOL) para quase todos os cenários de BYOL?
     - A. Dedicated Instances.
     - B. Dedicated Hosts.
     - C. On-demand Instances.
     - D. Reserved Instances.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B
     </details>
 
-23. Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?
-    - A. Free support for all enterprise customers.
-    - B. Automatic data protection.
-    - C. Reduced Capital Expenditure (CapEx).
-    - D. AWS holds responsibility for managing customer applications.
+23. Qual das seguintes é uma das vantagens de mover a infraestrutura de um data center on-premises para a AWS?
+    - A. Suporte gratuito para todos os clientes empresariais.
+    - B. Proteção automática de dados.
+    - C. Redução de despesas de capital (CapEx).
+    - D. A AWS é responsável por gerenciar as aplicações dos clientes.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-24. Which of the following are important design principles you should adopt when designing systems on AWS? (Choose TWO)
-    - A. Always use Global Services in your architecture rather than Regional Services.
-    - B. Always choose to pay as you go.
-    - C. Treat servers as fixed resources.
-    - D. Automate wherever possible.
-    - E. Remove single points of failure.
+24. Quais dos seguintes são princípios de design importantes que você deve adotar ao projetar sistemas na AWS? (Escolha DUAS)
+    - A. Sempre use Serviços Globais em sua arquitetura em vez de Serviços Regionais.
+    - B. Sempre escolha pagar conforme o uso.
+    - C. Trate servidores como recursos fixos.
+    - D. Automatize sempre que possível.
+    - E. Remova pontos únicos de falha.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D, E
     </details>
 
-25. Which AWS Service can be used to establish a dedicated, private network connection between AWS and your datacenter?
+25. Qual serviço da AWS pode ser usado para estabelecer uma conexão de rede privada dedicada entre a AWS e seu data center?
     - A. AWS Direct Connect.
     - B. Amazon CloudFront.
     - C. AWS Snowball.
     - D. Amazon Route 53.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-26. You are working on two projects that require completely different network configurations. Which AWS service or feature will allow you to isolate resources and network configurations?
+26. Você está trabalhando em dois projetos que exigem configurações de rede completamente diferentes. Qual serviço ou recurso da AWS permitirá isolar recursos e configurações de rede?
     - A. Internet gateways.
     - B. Virtual Private Cloud.
     - C. Security Groups.
     - D. Amazon CloudFront.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B
     </details>
 
-27. Which of the following services can help protect your web applications from SQL injection and other vulnerabilities in your application code?
+27. Quais dos seguintes serviços podem ajudar a proteger suas aplicações web contra injeção de SQL e outras vulnerabilidades no código da aplicação?
     - A. Amazon Cognito.
     - B. AWS IAM.
     - C. Amazon Aurora.
     - D. AWS WAF.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D
     </details>
 
-28. An organization needs to analyze and process a large number of data sets. Which AWS service should they use?
+28. Uma organização precisa analisar e processar um grande número de conjuntos de dados. Qual serviço da AWS eles devem usar?
     - A. Amazon EMR.
     - B. Amazon MQ.
     - C. Amazon SNS.
     - D. Amazon SQS.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-29. Based on the AWS Shared Responsibility Model, which of the following are the sole responsibility of AWS? (Choose TWO)
-    - A. Monitoring network performance.
-    - B. Installing software on EC2 instances.
-    - C. Creating hypervisors.
-    - D. Configuring Access Control Lists (ACLs).
-    - E. Hardware maintenance.
+29. Com base no modelo de responsabilidade compartilhada da AWS, quais das seguintes são de responsabilidade exclusiva da AWS? (Escolha DUAS)
+    - A. Monitorar o desempenho da rede.
+    - B. Instalar software em instâncias EC2.
+    - C. Criar hypervisors.
+    - D. Configurar Listas de Controle de Acesso (ACLs).
+    - E. Manutenção de hardware.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C, E
     </details>
 
-30. What is the AWS service that provides you the highest level of control over the underlying virtual infrastructure?
+30. Qual é o serviço da AWS que fornece o maior nível de controle sobre a infraestrutura virtual subjacente?
     - A. Amazon Redshift.
     - B. Amazon DynamoDB.
     - C. Amazon EC2.
     - D. Amazon RDS.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-31. What are the default security credentials that are required to access the AWS management console for an IAM user account?
+31. Quais são as credenciais de segurança padrão necessárias para acessar o console de gerenciamento da AWS para uma conta de usuário IAM?
     - A. MFA.
-    - B. Security tokens.
-    - C. A user name and password.
+    - B. Tokens de segurança.
+    - C. Nome de usuário e senha.
     - D. Access keys.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-32. In your on-premises environment, you can create as many virtual servers as you need from a single template. What can you use to perform the same in AWS?
+32. Em seu ambiente on-premises, você pode criar quantos servidores virtuais precisar a partir de um único template. O que você pode usar para realizar o mesmo na AWS?
     - A. IAM.
-    - B. An internet gateway.
+    - B. Um internet gateway.
     - C. EBS Snapshot.
     - D. AMI.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D
     </details>
 
-33. What are two advantages of using Cloud Computing over using traditional data centers? (Choose TWO)
-    - A. Reserved Compute capacity.
-    - B. Eliminating Single Points of Failure (SPOFs).
-    - C. Distributed infrastructure.
-    - D. Virtualized compute resources.
-    - E. Dedicated hosting.
+33. Quais são duas vantagens de usar a Computação em Nuvem em vez de usar data centers tradicionais? (Escolha DUAS)
+    - A. Capacidade de computação reservada.
+    - B. Eliminação de Pontos Únicos de Falha (SPOFs).
+    - C. Infraestrutura distribuída.
+    - D. Recursos de computação virtualizados.
+    - E. Hospedagem dedicada.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B, C
     </details>
 
-34. Which of the following aspects of security are managed by AWS? (Choose TWO)
-    - A. Encryption of EBS volumes.
-    - B. VPC security.
-    - C. Access permissions.
-    - D. Hardware patching.
-    - E. Securing global physical infrastructure.
+34. Quais dos seguintes aspectos de segurança são gerenciados pela AWS? (Escolha DUAS)
+    - A. Criptografia de volumes EBS.
+    - B. Segurança do VPC.
+    - C. Permissões de acesso.
+    - D. Aplicação de patches de hardware.
+    - E. Segurança da infraestrutura física global.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D, E
     </details>
 
-35. Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?
-    - A. The ability of a system to recover gracefully from failure.
-    - B. The efficient use of computing resources to meet requirements.
-    - C. The ability to monitor systems and improve supporting processes and procedures.
-    - D. The ability to manage datacenter operations more efficiently.
+35. Qual afirmação descreve melhor o pilar de excelência operacional do AWS Well-Architected Framework?
+    - A. A capacidade de um sistema de se recuperar graciosamente de falhas.
+    - B. O uso eficiente de recursos de computação para atender aos requisitos.
+    - C. A capacidade de monitorar sistemas e melhorar processos e procedimentos de suporte.
+    - D. A capacidade de gerenciar operações de data center de forma mais eficiente.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-36. AWS has created a large number of Edge Locations as part of its Global Infrastructure. Which of the following is NOT a benefit of using Edge Locations?
-    - A. Edge locations are used by CloudFront to cache the most recent responses.
-    - B. Edge locations are used by CloudFront to improve your end users’ experience when uploading files.
-    - C. Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency.
-    - D. Edge locations are used by CloudFront to distribute content to global users with low latency.
+36. A AWS criou um grande número de Edge Locations como parte de sua infraestrutura global. Qual das seguintes NÃO é uma vantagem de usar Edge Locations?
+    - A. Edge locations são usadas pelo CloudFront para armazenar em cache as respostas mais recentes.
+    - B. Edge locations são usadas pelo CloudFront para melhorar a experiência dos usuários finais ao fazer upload de arquivos.
+    - C. Edge locations são usadas pelo CloudFront para distribuir o tráfego entre várias instâncias para reduzir a latência.
+    - D. Edge locations são usadas pelo CloudFront para distribuir conteúdo para usuários globais com baixa latência.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-37. What are the change management tools that helps AWS customers audit and monitor all resource changes in their AWS environment? (Choose TWO)
+37. Quais são as ferramentas de gerenciamento de mudanças que ajudam os clientes da AWS a auditar e monitorar todas as mudanças de recursos em seu ambiente AWS? (Escolha DUAS)
     - A. AWS CloudTrail.
     - B. Amazon Comprehend.
     - C. AWS Transit Gateway.
     - D. AWS X-Ray.
     - E. AWS Config.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A, E
     </details>
 
-38. Which of the following services allows you to run containerized applications on a cluster of EC2 instances?
+38. Qual dos seguintes serviços permite executar aplicações conteinerizadas em um cluster de instâncias EC2?
     - A. Amazon ECS.
     - B. AWS Data Pipeline.
     - C. AWS Cloud9.
     - D. AWS Personal Health Dashboard.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-39. Which of the following services will help businesses ensure compliance in AWS?
+39. Qual dos seguintes serviços ajudará as empresas a garantir conformidade na AWS?
     - A. CloudFront.
     - B. CloudEndure Migration.
     - C. CloudWatch.
     - D. CloudTrail.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: D
     </details>
 
-40. Which of the following procedures will help reduce your Amazon S3 costs?
-    - A. Use the Import/Export feature to move old files automatically to Amazon Glacier.
-    - B. Use the right combination of storage classes based on different use cases.
-    - C. Pick the right Availability Zone for your S3 bucket.
-    - D. Move all the data stored in S3 standard to EBS.
+40. Qual dos seguintes procedimentos ajudará a reduzir seus custos com o Amazon S3?
+    - A. Use o recurso Import/Export para mover arquivos antigos automaticamente para o Amazon Glacier.
+    - B. Use a combinação certa de classes de armazenamento com base em diferentes casos de uso.
+    - C. Escolha a Zona de Disponibilidade correta para o seu bucket S3.
+    - D. Mova todos os dados armazenados no S3 padrão para o EBS.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B
     </details>
 
-41. What are the AWS services/features that can help you maintain a highly available and fault-tolerant architecture in AWS? (Choose TWO)
+41. Quais são os serviços/recursos da AWS que podem ajudá-lo a manter uma arquitetura altamente disponível e tolerante a falhas na AWS? (Escolha DUAS)
     - A. AWS Direct Connect.
     - B. Amazon EC2 Auto Scaling.
     - C. Elastic Load Balancer.
     - D. CloudFormation.
     - E. Network ACLs.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B, C
     </details>
 
-42. Which of the following activities may help reduce your AWS monthly costs?
-    - A. Enabling Amazon EC2 Auto Scaling for all of your workloads.
-    - B. Using the AWS Network Load Balancer (NLB) to load balance the incoming HTTP requests.
-    - C. Removing all of your Cost Allocation Tags.
-    - D. Deploying your AWS resources across multiple Availability Zones.
+42. Quais das seguintes atividades podem ajudar a reduzir seus custos mensais na AWS?
+    - A. Habilitar o Amazon EC2 Auto Scaling para todas as suas cargas de trabalho.
+    - B. Usar o AWS Network Load Balancer (NLB) para balancear a carga das solicitações HTTP recebidas.
+    - C. Remover todas as suas Tags de Alocação de Custos.
+    - D. Implantar seus recursos da AWS em várias Zonas de Disponibilidade.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-43. What is the AWS service/feature that takes advantage of Amazon CloudFront’s globally distributed edge locations to transfer files to S3 with higher upload speeds?
+43. Qual é o serviço/recurso da AWS que aproveita as localizações de borda distribuídas globalmente do Amazon CloudFront para transferir arquivos para o S3 com maiores velocidades de upload?
     - A. S3 Transfer Acceleration.
     - B. AWS WAF.
     - C. AWS Snowmobile.
     - D. AWS Snowball.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-44. Which of the following AWS security features is associated with an EC2 instance and functions to filter incoming traffic requests?
+44. Quais dos seguintes recursos de segurança da AWS estão associados a uma instância EC2 e funcionam para filtrar solicitações de tráfego de entrada?
     - A. AWS X-Ray.
     - B. Network ACL.
     - C. Security Groups.
     - D. VPC Flow logs.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-45. Which AWS services can be used to improve the performance of a global application and reduce latency for its users? (Choose TWO)
+45. Quais serviços da AWS podem ser usados para melhorar o desempenho de um aplicativo global e reduzir a latência para seus usuários? (Escolha DUAS)
     - A. AWS KMS.
-    - B. AWS Global accelerator.
+    - B. AWS Global Accelerator.
     - C. AWS Direct Connect.
     - D. AWS Glue.
     - E. Amazon CloudFront.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B, E
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B, E
     </details>
 
-46. Using Amazon RDS falls under the shared responsibility model. Which of the following are customer responsibilities? (Choose TWO)
-    - A. Building the relational database schema.
-    - B. Performing backups.
-    - C. Managing the database settings.
-    - D. Patching the database software.
-    - E. Installing the database software.
+46. Usar o Amazon RDS está sob o modelo de responsabilidade compartilhada. Quais das seguintes são responsabilidades do cliente? (Escolha DUAS)
+    - A. Construir o esquema do banco de dados relacional.
+    - B. Realizar backups.
+    - C. Gerenciar as configurações do banco de dados.
+    - D. Aplicar patches no software do banco de dados.
+    - E. Instalar o software do banco de dados.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A, C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A, C
     </details>
 
-47. A company has a large amount of structured data stored in their on-premises data center. They are planning to migrate all the data to AWS, what is the most appropriate AWS database option?
+47. Uma empresa tem uma grande quantidade de dados estruturados armazenados em seu data center local. Eles estão planejando migrar todos os dados para a AWS, qual é a opção de banco de dados da AWS mais apropriada?
     - A. Amazon DynamoDB.
     - B. Amazon SNS.
     - C. Amazon RDS.
     - D. Amazon ElastiCache.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: C
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: C
     </details>
 
-48. A company has created a solution that helps AWS customers improve their architectures on AWS. Which AWS program may support this company?
+48. Uma empresa criou uma solução que ajuda os clientes da AWS a melhorar suas arquiteturas na AWS. Qual programa da AWS pode apoiar essa empresa?
     - A. APN Consulting Partners.
     - B. AWS TAM.
     - C. APN Technology Partners.
     - D. AWS Professional Services.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: A
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: A
     </details>
 
-49. What is the AWS serverless service that allows you to run your applications without any administrative burden?
+49. Qual é o serviço serverless da AWS que permite que você execute suas aplicações sem qualquer encargo administrativo?
     - A. Amazon LightSail.
     - B. AWS Lambda.
-    - C. Amazon RDS instances.
-    - D. Amazon EC2 instances.
+    - C. Instâncias Amazon RDS.
+    - D. Instâncias Amazon EC2.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B
     </details>
 
-50. Jessica is managing an e-commerce web application in AWS. The application is hosted on six EC2 instances. One day, three of the instances crashed; but none of her customers were affected. What has Jessica done correctly in this scenario?
-    - A. She has properly built an elastic system.
-    - B. She has properly built a fault tolerant system.
-    - C. She has properly built an encrypted system.
-    - D. She has properly built a scalable system.
+50. Jessica está gerenciando um aplicativo web de e-commerce na AWS. O aplicativo está hospedado em seis instâncias EC2. Um dia, três das instâncias falharam; mas nenhum de seus clientes foi afetado. O que Jessica fez corretamente neste cenário?
+    - A. Ela construiu corretamente um sistema elástico.
+    - B. Ela construiu corretamente um sistema tolerante a falhas.
+    - C. Ela construiu corretamente um sistema criptografado.
+    - D. Ela construiu corretamente um sistema escalável.
 
-    <details markdown=1><summary markdown='span'>Answer</summary>
-      Correct answer: B
+    <details markdown=1><summary markdown='span'>Resposta</summary>
+      Resposta correta: B
     </details>
 
-Please feel free to comment below if any information is inaccurate or if any answers need correction.
+Sinta-se à vontade para comentar abaixo se alguma informação estiver incorreta ou se alguma resposta precisar de correção.
 
-[<img align="center" src="../images/list.png" height="30" width="30"/> Exam List](../practice-exam/exams.md)
+[<img align="center" src="../images/list.png" height="30" width="30"/> Lista de Exames](../practice-exam/exams.md)
